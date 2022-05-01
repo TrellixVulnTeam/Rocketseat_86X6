@@ -1,0 +1,8 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "informationSection dashboard dashboard dashboard";
+    grid-template-rows: 86px 186px 86px 201px 208px 349px 352px;
+    grid-template-columns: 20.75em 200fr;
+    background-color: grey;
+}

@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 
+    <!-- ESTILOS -->
+
     <!-- NORMALIZE E RESET -->
 
     <link rel="stilesheet" href="./assets/css/normalize.css">
@@ -18,12 +20,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
 
-    <!-- ESTILOS -->
+    <!-- GENERAL CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- INFORMATIONS CSS -->
+    <link rel="stylesheet" href="./assets/css/information/information.css">
+
+    <!-- DASHBOARD CSS -->
+    <link rel="stylesheet" href="./assets/css/dashboard/dashboard.css">
+
+
 </head>
 
 <body>
     <!-- INFORMATIONS SECTION -->
-    <section class="information">
+    <aside class="information">
 
         <!-- PERSONAL INFORMATIONS-->
         <article class="personal">
@@ -41,23 +52,23 @@
                 </li>
                 <li class="contact__item">
                     <img class="contact__icon" src="./assets/images/briefcase.svg">
-                    <a class="contact__link" href="#">Rocketseat</a>
+                    <a class="contact__link" href="#">IVN Tecnologia</a>
                 </li>
                 <li class="contact__item">
                     <img class="contact__icon" src="./assets/images/github.svg">
-                    <a class="contact__link" href="#">birobirobiro</a>
+                    <a class="contact__link" href="https://github.com/MacielDev">Conheça o que estou estudando</a>
                 </li>
                 <li class="contact__item">
                     <img class="contact__icon" src="./assets/images/linkedin.svg">
-                    <a class="contact__link" href="#">andre-maciel</a>
+                    <a class="contact__link" href="linkedin.com/in/andré-vinicius-maciel-b25a4730">Veja meu linkedin</a>
                 </li>
                 <li class="contact__item">
                     <img class="contact__icon" src="./assets/images/twitter.svg">
-                    <a class="contact__link" href="#">birobirobiro</a>
+                    <a class="contact__link" href="#">Andre Maciel</a>
                 </li>
                 <li class="contact__item">
                     <img class="contact__icon" src="./assets/images/globe.svg">
-                    <a class="contact__link" href="#">https://birobirobiro.dev</a>
+                    <a class="contact__link" href="#">https://andremaciel.dev</a>
                 </li>
                 <li class="contact__item">
                     <img class="contact__icon" src="./assets/images/mail.svg">
@@ -131,20 +142,36 @@
                 </li>
             </ul>
         </article>
-    </section>
+    </aside>
 
     <!-- DASHBOARD -->
-    <section class="dashboard">
+    <main class="dashboard">
 
         <!-- PROJECTS SECTION -->
         <section class="projects">
             <header class="projects__header">
-                <h3 class="projects__header--title"></h3>
-                <a class="projects__header--all" href="#"></a>
+                <h3 class="projects__header--title">My Projects</h3>
+                <a class="projects__header--all" href="#">Veja todos</a>
             </header>
             <div class="project__content">
-                <article class="project__left"></article>
-                <article class="project__right"></article>
+                <article class="project__left">
+                    <h4>
+                        cabeçalho
+                    </h4>
+                    <p>
+                        conteúdo
+                    </p>
+                    <div>
+                        <div>
+                            <a href="">100</a>
+                            <a href="">100</a>
+                        </div>
+                        <a href="">javaScript</a>
+                    </div>
+                </article>
+                <article class="project__right">
+
+                </article>
             </div>
         </section>
 
@@ -154,8 +181,10 @@
             <section class="project__post"></section>
 
         </section>
-
-    </section>
+    </main>
+    <footer>
+        Feito por André
+    </footer>
 </body>
 
 </html>
