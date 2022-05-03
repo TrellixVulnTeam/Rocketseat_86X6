@@ -1,1 +1,33 @@
-body {}
+:root {
+    --body-bg-color: #22212C;
+    --bg-boxes: #302F3D;
+    --bg-buttons: #CB92B1;
+    --text-color: #837E9F;
+}
+
+
+/* GENERAL CONFIGURATIONS */
+
+body {
+    background-color: #22212C;
+    color: var(--text-color);
+    display: grid;
+    text-decoration: none;
+    height: 100vh;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+button {
+    background-color: var(--bg-buttons);
+    border: none;
+    border-radius: 8px;
+    font: #000000;
+    font-size: 0.65em;
+    padding: 2.7px;
+    text-transform: uppercase;
+    width: 7.4em;
+}
