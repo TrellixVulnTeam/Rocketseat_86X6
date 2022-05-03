@@ -1,0 +1,13 @@
+.experience__list {
+    margin-left: 5em;
+}
+
+.experience__item {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.experience__item--description {
+    font-size: 0.8em;
+    margin: 0
+}

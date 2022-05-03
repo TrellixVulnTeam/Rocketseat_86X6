@@ -6,5 +6,10 @@
 }
 
 .technology {
-    
+    align-self: center;
+    background-color: var(--bg-boxes);
+    border-radius: 1.25em;
+    height: 13em;
+    margin: 2.5em;
+    width: 21.75em;
 }
