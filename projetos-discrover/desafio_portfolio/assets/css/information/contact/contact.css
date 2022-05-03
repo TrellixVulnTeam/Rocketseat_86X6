@@ -1,0 +1,24 @@
+:root {
+    --body-bg-color: #22212C;
+    --bg-boxes: #302F3D;
+    --bg-buttons: #CB92B1;
+    --text-color: #837E9F;
+}
+
+.contact {
+    align-self: center;
+    background-color: var(--bg-boxes);
+    border-radius: 1.25em;
+    height: 21.75em;
+    width: 21.75em;
+}
+
+.contact__item {
+    align-items: center;
+    display: flex;
+    margin-top: 0.9em;
+}
+
+.contact__link {
+    margin-left: 1em;
+}

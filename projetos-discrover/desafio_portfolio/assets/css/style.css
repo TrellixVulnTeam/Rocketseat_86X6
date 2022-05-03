@@ -12,8 +12,11 @@ body {
     background-color: #22212C;
     color: var(--text-color);
     display: grid;
-    text-decoration: none;
+    grid-template-areas: "information dashboard dashboard" "information dashboard dashboard" "information dashboard dashboard" "information dashboard dashboard" "information dashboard dashboard" "information dashboard dashboard" "information dashboard dashboard" "footer footer footer";
+    grid-template-columns: 26.75em 31em 31em;
     height: 100vh;
+    text-decoration: none;
+    width: 1440px;
 }
 
 a {
