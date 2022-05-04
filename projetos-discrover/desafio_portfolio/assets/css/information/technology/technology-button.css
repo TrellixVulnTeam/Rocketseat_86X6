@@ -1,0 +1,18 @@
+:root {
+    --body-bg-color: #22212C;
+    --bg-boxes: #302F3D;
+    --bg-buttons: #CB92B1;
+    --text-color: #837E9F;
+}
+
+.technology__button {
+    background-color: var(--bg-buttons);
+    border: none;
+    border-radius: 1.875em;
+    font: #000000;
+    font-size: 0.68em;
+    font-weight: 700;
+    height: 1.988em;
+    text-transform: uppercase;
+    width: 7.95em;
+}

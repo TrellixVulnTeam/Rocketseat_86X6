@@ -1,0 +1,13 @@
+:root {
+    --body-bg-color: #22212C;
+    --bg-boxes: #302F3D;
+    --bg-buttons: #CB92B1;
+    --text-color: #837E9F;
+}
+
+.posts__header {
+    background-color: var(--bg-boxes);
+    height: 5.375em;
+    border-radius: 1.25em;
+    padding-left: 1.3em;
+}

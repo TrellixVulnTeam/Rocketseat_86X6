@@ -1,0 +1,20 @@
+:root {
+    --body-bg-color: #22212C;
+    --bg-boxes: #302F3D;
+    --bg-buttons: #CB92B1;
+    --text-color: #837E9F;
+}
+
+.post {
+    border-radius: 1.25em;
+    background-color: var(--bg-boxes);
+    height: 12.5625em;
+    margin-top: 2.5em;
+    display: flex;
+}
+
+.post__container {
+    margin-left: 1.5em;
+    display: flex;
+    flex-direction: column;
+}

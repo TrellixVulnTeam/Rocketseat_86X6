@@ -9,9 +9,8 @@
     align-self: center;
     background-color: var(--bg-boxes);
     border-radius: 1.25em;
-    display: flex;
-    flex-direction: column;
-    height: 18.25em;
+    text-align: center;
+    height: 18.98em;
     margin: 2.5em;
     width: 21.75em;
 }

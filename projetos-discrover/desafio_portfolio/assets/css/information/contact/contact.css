@@ -11,12 +11,12 @@
     border-radius: 1.25em;
     height: 21.75em;
     width: 21.75em;
+    padding-bottom: 0.6em;
 }
 
 .contact__item {
     align-items: center;
-    display: flex;
-    margin-top: 0.9em;
+    margin-bottom: 0.9em;
 }
 
 .contact__link {
