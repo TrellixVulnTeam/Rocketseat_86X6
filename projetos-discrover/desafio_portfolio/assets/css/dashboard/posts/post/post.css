@@ -11,6 +11,7 @@
     height: 12.5625em;
     margin-top: 2.5em;
     display: flex;
+    align-items: center;
 }
 
 .post__container {

@@ -1,23 +1,28 @@
-:root {
-    --body-bg-color: #22212C;
-    --bg-boxes: #302F3D;
-    --bg-buttons: #CB92B1;
-    --text-color: #837E9F;
-}
-
-.project {
-    background-color: var(--bg-boxes);
-    border-radius: 1.25em;
-    height: 11.625em;
-    margin-bottom: 2.5em;
-    width: 28.8125em;
-}
-
-.project-left {
-    margin-right: 2.5em;
-    padding-left: 1.3em;
-}
-
-.project-right {
-    padding-right: 1.3em;
-}
+       :root {
+          --body-bg-color: #22212C;
+          --bg-boxes: #302F3D;
+          --bg-buttons: #CB92B1;
+          --text-color: #837E9F;
+      }
+      
+      .project {
+          background-color: var(--bg-boxes);
+          border-radius: 1.25em;
+          height: 11.625em;
+          margin-bottom: 2.5em;
+          width: 28.8125em;
+      }
+      
+      .project-left {
+          box-sizing: border-box;
+          margin-right: 2.5em;
+          padding: 2em 0.5em 0 1.6em;
+          padding-left: 1.6em;
+          padding-right: 0.5em;
+      }
+      
+      .project-right {
+          box-sizing: border-box;
+          margin-right: 2.5em;
+          padding: 2em 0.5em 0 1.6em;
+      }

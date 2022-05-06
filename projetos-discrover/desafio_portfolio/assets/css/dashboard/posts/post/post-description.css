@@ -1,0 +1,11 @@
+.post__description {
+    margin-top: 0.2em;
+    font-size: 0.9em;
+}
+
+.post__description-itens {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+}
