@@ -27,11 +27,11 @@ module.exports ={
                 test: /\.jsx$/, //quando exportar um .jsx de node_modules
                 exclude:/node_modules/, // não faça a conversão
                 use:'babel-loader'
-            }
+            },
             {
                 test: /\.css$/, //quando exportar um .jsx de node_modules
                 exclude:/node_modules/, // não faça a conversão
-                use:''
+                use:['style-loader','css-loader']
             }
         ]
     }
