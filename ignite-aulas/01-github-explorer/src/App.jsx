@@ -1,3 +1,4 @@
+import './styles/global.css';
 export function App(){
-    return <h1>olá mundo</h1>
+    return <h1>Teste 2</h1>
 }

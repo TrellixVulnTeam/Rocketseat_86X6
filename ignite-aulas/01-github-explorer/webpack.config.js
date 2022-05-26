@@ -1,8 +1,10 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const isDevelopment = process.env.NODE_ENV !== 'production'
 
 module.exports ={
-    mode: 'development',
+    mode: isDevelopment ? 'development':'production',
+    devtool: isDevelopment? 'eval-source-map' : 'source-map',
     entry:path.resolve(__dirname,'src','index.jsx'),
     output:{
         path:path.resolve(__dirname,'dist'),
@@ -10,6 +12,9 @@ module.exports ={
     },
     resolve:{
         extensions:['.js','.jsx']
+    },
+    devServer:{
+        static: path.resolve(__dirname, 'public')                   
     },
     plugins:[
         new HtmlWebpackPlugin({
@@ -22,6 +27,11 @@ module.exports ={
                 test: /\.jsx$/, //quando exportar um .jsx de node_modules
                 exclude:/node_modules/, // não faça a conversão
                 use:'babel-loader'
+            }
+            {
+                test: /\.css$/, //quando exportar um .jsx de node_modules
+                exclude:/node_modules/, // não faça a conversão
+                use:''
             }
         ]
     }
