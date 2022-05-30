@@ -29,9 +29,9 @@ module.exports ={
                 use:'babel-loader'
             },
             {
-                test: /\.css$/, //quando exportar um .jsx de node_modules
+                test: /\.scss$/, //quando exportar um .jsx de node_modules
                 exclude:/node_modules/, // não faça a conversão
-                use:['style-loader','css-loader']
+                use:['style-loader','css-loader', 'sass-loader']
             }
         ]
     }
